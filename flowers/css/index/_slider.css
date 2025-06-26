@@ -1,0 +1,77 @@
+.podarki h2{
+    color: #5D2149;
+    font-size: 36px;
+    margin-left: 753px;
+    margin-top: 39px;
+}
+.flowers_nav4{
+    display: flex;
+    
+}
+.flowers_nav4 img{
+    border-radius: 46px;
+}
+.slider {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 29px;
+    border-radius: 10px;
+    margin-bottom: 38px;
+    
+}
+.slider img {
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.swiper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #EFA1C7;
+    background: rgba(255,255,255,0.8);
+    border-radius: 50%;
+    transition: background 0.2s;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background: #EFA1C7;
+    color: #fff;
+}
+.swiper-pagination-bullet {
+    background: #EFA1C7 !important;
+    opacity: 1 !important;
+}
+.swiper-pagination-bullet-active {
+    background: #5D2149 !important;
+}
+
+@media (max-width: 1400px) {
+  .podarki h2 {
+    font-size: 30px;
+    margin-left: 0;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 900px) {
+  .podarki h2 {
+    font-size: 22px;
+    margin-left: 0;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .podarki h2 {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+}
+
+
